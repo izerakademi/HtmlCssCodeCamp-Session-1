@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Css Text</title>
+    <style>
+        h1 {
+            text-align: center;
+            text-decoration: overline;
+            letter-spacing: 10px;
+            word-spacing: 10px;
+            text-shadow: 2px 2px 2px red;
+        }
+
+        h2 {
+            text-align: left;
+            text-decoration: line-through;
+            letter-spacing: 10px;
+            word-spacing: 15px;
+            text-shadow: 2px 2px 2px blue;
+        }
+
+        h3 {
+            text-align: right;
+            text-decoration: underline;
+        }
+
+        div {
+            border: 1px solid black;
+            padding: 10px;
+            width: 200px;
+            height: 200px;
+            text-align: justify;
+        }
+
+        p.paragraph1 {
+            direction: rtl;
+            unicode-bidi: bidi-override;
+        }
+
+        img.top {
+            vertical-align: top;
+        }
+
+        img.middle {
+            vertical-align: middle;
+        }
+
+        img.bottom {
+            vertical-align: bottom;
+        }
+        p.uppercase{
+            text-transform: uppercase;
+        }
+        p.lowercase{
+            text-transform: lowercase;
+        }
+        p.capitalize{
+            text-transform: capitalize;
+        }
+        p{
+            text-indent: 50px;
+        }
+        p.small{
+            line-height: 0.7;
+        }
+        p.big{
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+<h1>Hello World</h1>
+<h2>Hello World</h2>
+<h3>Hello World</h3>
+<div>
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua.
+</div>
+<p class="paragraph1">Lorem ipsum dolor sit amet, consectetur</p>
+<p>Lorem
+    <img src="natural_view.jpg"
+         width="50px"
+         height="50px"
+         alt="Natural View"
+         class="top">ipsum dolor sit amet, consectetur</p>
+<p>Lorem
+    <img src="natural_view.jpg"
+         width="50px"
+         height="50px"
+         alt="Natural View"
+         class="middle">ipsum dolor sit amet, consectetur</p>
+<p>Lorem
+    <img src="natural_view.jpg"
+         width="50px"
+         height="50px"
+         alt="Natural View"
+         class="bottom">ipsum dolor sit amet, consectetur</p>
+
+<h1>Hello World</h1>
+<h2>Hello World</h2>
+<h3>Hello World</h3>
+<p class="uppercase">Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua.</p>
+
+<p class="lowercase">Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua.</p>
+
+<p class="capitalize">Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua.</p>
+
+<p class="small">
+    Lorem ipsum dolor sit amet, consectetur<br>
+    adipiscing elit, sed do eiusmod tempor<br>
+</p>
+<p class="big">
+    Lorem ipsum dolor sit amet, consectetur<br>
+    adipiscing elit, sed do eiusmod tempor<br>
+</p>
+</body>
+</html>

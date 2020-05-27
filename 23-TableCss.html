@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table Css</title>
+    <style>
+        #customers{
+            font-family: Arial;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,#customers th{
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        #customers tr:nth-child(even){background-color: #f2f2f2}
+        #customers tr:hover {background-color: #ddd}
+        #customers th{
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+<table id="customers">
+    <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>City</th>
+    </tr>
+    <tr>
+        <td>Ali</td>
+        <td>Yılmaz</td>
+        <td>İstanbul</td>
+    </tr>
+    <tr>
+        <td>Mehmet</td>
+        <td>Yılmaz</td>
+        <td>İzmir</td>
+    </tr>
+    <tr>
+        <td>İlayda</td>
+        <td>Sönmez</td>
+        <td>Ankara</td>
+    </tr>
+    <tr>
+        <td>Ayşe</td>
+        <td>Türk</td>
+        <td>Samsun</td>
+    </tr>
+    <tr>
+        <td>Doğan</td>
+        <td>Özgüven</td>
+        <td>Afyon</td>
+    </tr>
+</table>
+</body>
+</html>
